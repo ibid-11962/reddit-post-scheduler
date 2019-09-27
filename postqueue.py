@@ -8,12 +8,12 @@
 #image and video are pathstrings
 #a videopost can use image to set a thumbnail
 #link is a urlstring
-#parent is a the comment ID of the comment you want to reply to (if not making a post)
+#parent is a the ID of the comment or post you want to reply to (if not making a post)
 #A lot of features will not work if you aren't a moderator
 
 #link post:		date, sub, title, link
 #text post:		date, sub, title, text
-#title post:	date, sub, title, text (set to "")
+#title post:	date, sub, title
 #image post:	date, sub, title, image
 #video post:	date, sub, title, video, [image (for thumbnails)]
 #comment:		date, parent, commenttext
