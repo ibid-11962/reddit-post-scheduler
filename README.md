@@ -91,7 +91,7 @@ The following properties are also optional, but take booleans, not strings.
 - **sticky** 
 - **lockcomment** 
 - **distinguishcomment** 
-- **stickycomment
+- **stickycomment**
 - **wait** If the ratelimit is reached, wait the ten minutes and try again.
 
 # Setting this up with pythonanywhere
