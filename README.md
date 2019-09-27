@@ -96,5 +96,12 @@ The following properties are also optional, but take booleans, not strings. Thes
 
 # Setting this up with pythonanywhere
 
-If you do not have a server, this can e set up for free on pythonanwhere. It meets their daily limits. You'll just need to update the praw model to the newest version, and then schedule a daily task to run the script.
+If you do not have a server, this can e set up for free on pythonanwhere. It meets their daily limits. 
 
+- Make an account at https://www.pythonanywhere.com
+- Naigate to the "Files" page 
+- Click "Upload a File", and upload `postscheduler.py` and `postqueue.py`.
+- Click on "Open Bash console here" and wait for the console to finish initilizing.
+- Type in `python3 -m pip install praw -U --user`.
+- Navigate to the tasks page.
+- Start a new daily task with the command `python3 postscheduler.py` set to run at the time that you want your stuff to post. (Note that the server time listed on the page may be different from your own time.)
