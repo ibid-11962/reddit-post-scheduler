@@ -73,7 +73,11 @@ def submitPost(sub, title, text, link, image, video, parent, flairid, flairtext,
 			f.write("\n\nError attributing submission. (Are you a moderator?) -- "+str(e))
 	else:
 		submission = reddit.comment(parent)
-
+		try:
+			submission.body
+		except Exception as e:
+			submission = reddit.submission(parent)
+			
 	if commenttext == None:
 		return 2
 		
