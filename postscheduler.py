@@ -9,11 +9,13 @@ from praw.exceptions import APIException
 f= open("postscheduler.log","a+")
 
 #Credentials
-reddit = praw.Reddit(client_id='',
-					 client_secret='',
-					 password='',
-					 user_agent='postscheduler v.2b by /u/ibid-11962',
-					 username='')
+reddit = praw.Reddit(
+	client_id='',
+	client_secret='',
+	password='',
+	user_agent='postscheduler v.2b by /u/ibid-11962',
+	username=''
+)
 
 
 from postqueue import posts
