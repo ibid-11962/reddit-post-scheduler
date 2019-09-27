@@ -62,37 +62,37 @@ All that this file essentially needs is a list called `post` containing a dictio
 
 The following properties are required depending on the type of posts.
 
-- **date** The date you want the post to go up on. Needs to be in "M,D" format. Required for all posts and comments. 
-- **sub** The subreddit to post to. Required for all posts.
-- **title** The title of the post. Required for all posts.
-- **text** The body text. Required for all text posts. (but not for a title-only post)
-- **link** The url of the link. Required for all link posts.
-- **image** The path to the image you want to upload. Required for all image posts, and will be used as the thumbnail if done on a video post.
-- **video** The path to the video you want to upload. Required for all video posts.
-- **parent** - The parent id of the comment you want to reply to. This is required if you're just making a comment, but not a post.
-- **commenttext** - The text of the comment. This is required if you are making a comment, regardless of whether you are also making a post.
+- `date` The date you want the post to go up on. Needs to be in "M,D" format. Required for all posts and comments. 
+- `sub` The subreddit to post to. Required for all posts.
+- `title` The title of the post. Required for all posts.
+- `text` The body text. Required for all text posts. (but not for a title-only post)
+- `link` The url of the link. Required for all link posts.
+- `image` The path to the image you want to upload. Required for all image posts, and will be used as the thumbnail if done on a video post.
+- `video` The path to the video you want to upload. Required for all video posts.
+- `parent` - The parent id of the comment or post you want to reply to. This is required if you're just making a comment, but not a post.
+- `commenttext` - The text of the comment. This is required if you are making a comment, regardless of whether you are also making a post.
 
 The following properties are optional strings. (some need moderator permissions)
 
-- **flairid** The uuid of the flair you want to use.
-- **flairtext** The text of the flair you want to use.
-- **collectionid** The uuid of the collection you want to post to.
-- **sort** The suggested sort to apply.
+- `flairid` The uuid of the flair you want to use.
+- `flairtext` The text of the flair you want to use.
+- `collectionid` The uuid of the collection you want to post to.
+- `sort` The suggested sort to apply.
 
 The following properties are also optional, but take booleans, not strings. These all default to False, so only include them if setting to True. Some need moderator permissions. 
 
 
-- **spoiler** 
-- **nsfw** 
-- **dontnotify** Disbale inbox notifications
-- **contest** Enable contest mode
-- **lock** 
-- **distinguish** 
-- **sticky** 
-- **lockcomment** 
-- **distinguishcomment** 
-- **stickycomment**
-- **wait** If the ratelimit is reached, wait the ten minutes and try again.
+- `spoiler` 
+- `nsfw` 
+- `dontnotify` Disbale inbox notifications
+- `contest` Enable contest mode
+- `lock` 
+- `distinguish` 
+- `sticky` 
+- `lockcomment` 
+- `distinguishcomment` 
+- `stickycomment`
+- `wait` If the ratelimit is reached, wait the ten minutes and try again.
 
 # Setting this up with pythonanywhere
 
