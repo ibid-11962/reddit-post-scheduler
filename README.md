@@ -84,9 +84,9 @@ The following properties are also optional, but take booleans, not strings.
 
 - **spoiler** 
 - **nsfw** 
-- **lock** 
-- **contest** Enable contest mode
 - **dontnotify** Disbale inbox notifications
+- **contest** Enable contest mode
+- **lock** 
 - **distinguish** 
 - **sticky** 
 - **lockcomment** 
