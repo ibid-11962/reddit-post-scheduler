@@ -79,7 +79,7 @@ The following properties are optional strings. (some need moderator permissions)
 - **collectionid** The uuid of the collection you want to post to.
 - **sort** The suggested sort to apply.
 
-The following properties are also optional, but take booleans, not strings.
+The following properties are also optional, but take booleans, not strings. These all default to False, so only include them if setting to True. Some need moderator permissions. 
 
 
 - **spoiler** 
