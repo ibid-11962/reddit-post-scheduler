@@ -65,7 +65,7 @@ The following properties are required depending on the type of posts.
 - **date** The date you want the post to go up on. Needs to be in "M,D" format. Required for all posts and comments. 
 - **sub** The subreddit to post to. Required for all posts.
 - **title** The title of the post. Required for all posts.
-- **text** The body text. Required for all text posts. (Set the it to "" to do a title only post.)
+- **text** The body text. Required for all text posts. (but not for a title-only post)
 - **link** The url of the link. Required for all link posts.
 - **image** The path to the image you want to upload. Required for all image posts, and will be used as the thumbnail if done on a video post.
 - **video** The path to the video you want to upload. Required for all video posts.
